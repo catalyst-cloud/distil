@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_feb6cf88",
+        "filename": "odoo/odoo-glue.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-02-21T22:29:27Z",
+      "side": 1,
+      "message": "Should we cancel the order at here?",
+      "revId": "f5070def8b2bcb1bce58f21cd3f523c361373372",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae84128_de702bdf",
+        "filename": "odoo/odoo-glue.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-02-21T22:29:27Z",
+      "side": 1,
+      "message": "So what\u0027s the expected behaviour if there is a duplicated sales order?",
+      "revId": "f5070def8b2bcb1bce58f21cd3f523c361373372",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
