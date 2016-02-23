@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "bae84128_97a1f648",
+        "filename": "odoo/odoo-glue.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-02-23T22:25:59Z",
+      "side": 1,
+      "message": "Yes, we can. If so, I think we could combine the two exception handling together, the code is duplicate between them.",
+      "parentUuid": "bae84128_feb6cf88",
+      "revId": "f5070def8b2bcb1bce58f21cd3f523c361373372",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bae84128_de702bdf",
         "filename": "odoo/odoo-glue.py",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-02-21T22:29:27Z",
       "side": 1,
       "message": "So what\u0027s the expected behaviour if there is a duplicated sales order?",
+      "revId": "f5070def8b2bcb1bce58f21cd3f523c361373372",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae84128_973d76df",
+        "filename": "odoo/odoo-glue.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-02-23T22:25:59Z",
+      "side": 1,
+      "message": "the duplicate check will be done in the patch: https://review.openstack.org/#/c/278849, after that, check_duplicate() method could be removed.",
+      "parentUuid": "bae84128_de702bdf",
       "revId": "f5070def8b2bcb1bce58f21cd3f523c361373372",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
