@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7af24918_1a0a278a",
+        "filename": "odoo/odoo-glue.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 754,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-03-03T22:57:14Z",
+      "side": 1,
+      "message": "Good to see this check. And as I mentioned, I would like to see the whole process is fully automated. And this check could be an important part of the workflow.",
+      "revId": "6ca9968193386beacd6fe5f3646454d548ae76bf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
