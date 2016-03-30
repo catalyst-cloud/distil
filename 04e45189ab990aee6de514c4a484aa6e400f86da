@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_66687088",
+        "filename": "distil/database.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-03-30T01:21:17Z",
+      "side": 1,
+      "message": "As we discussed yesterday, what if the vm is created from a bootable volume, and the volume is created from a windows image?",
+      "revId": "04e45189ab990aee6de514c4a484aa6e400f86da",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
