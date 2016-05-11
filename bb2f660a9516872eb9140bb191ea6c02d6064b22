@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab17558_191533e4",
+        "filename": "distil/api/app.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-11T03:39:04Z",
+      "side": 1,
+      "message": "Can we add a config to disable this by default before we\u0027re confident for the new collecting?",
+      "revId": "bb2f660a9516872eb9140bb191ea6c02d6064b22",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab17558_59d97b56",
+        "filename": "distil/service/periodic.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-11T03:39:04Z",
+      "side": 1,
+      "message": "Not really sure if it should be included in this patch. I would suggest to support different collector, so that we can support getting metrics from gnocchi in the near future. This can be done by stevedore.",
+      "revId": "bb2f660a9516872eb9140bb191ea6c02d6064b22",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
