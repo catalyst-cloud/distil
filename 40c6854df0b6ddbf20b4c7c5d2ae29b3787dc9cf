@@ -16,6 +16,24 @@
       "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab17558_e0ff9563",
+        "filename": "distil/collector/ceilometer.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-12T03:49:29Z",
+      "side": 1,
+      "message": "Yes, it\u0027s my plan to add a base collector class, the CeilometerCollector will extends it. The driver mechanism has already been there in collector service.",
+      "parentUuid": "dab17558_60a725a7",
+      "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
