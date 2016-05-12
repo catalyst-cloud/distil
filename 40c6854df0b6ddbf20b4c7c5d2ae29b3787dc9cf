@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab17558_60a725a7",
+        "filename": "distil/collector/ceilometer.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-12T03:42:44Z",
+      "side": 1,
+      "message": "Should we define a base for collector? so that in the collector service, we can do something like:\n\n\ncollector \u003d driver.DriverManager(\u0027distil.collector\u0027,\n                               CONF.collector.collector_type,\n                               invoke_on_load\u003dTrue,\n                               invoke_kwds\u003d{}).driver\n\ncollector.collect()\n\nso that in the collector service, we don\u0027t have to hardcode the collector type which will be configured by operator.",
+      "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
