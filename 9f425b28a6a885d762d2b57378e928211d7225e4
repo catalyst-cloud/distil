@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab17558_fcdf7d66",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2016-05-17T03:00:06Z",
+      "side": 1,
+      "message": "The code that calls this function expects data returned as per the database query as seen here:\nhttps://github.com/openstack/distil/blob/master/distil/database.py#L122\n\n\nIf we decide to make this query less complex we will need to change the costing code itself to then group and sum the entries instead.",
+      "revId": "9f425b28a6a885d762d2b57378e928211d7225e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab17558_3cc74565",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2016-05-17T03:00:06Z",
+      "side": 1,
+      "message": "s/usages/usage/\nminor issue, usage without the s is more appropriate here as usage does not have a plural in this context.\n\n\nAlso see comment in sqlalchelmy.api about this function and the data this function expects to be returned.",
+      "revId": "9f425b28a6a885d762d2b57378e928211d7225e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab17558_bca97592",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2016-05-17T03:00:06Z",
+      "side": 1,
+      "message": "s/usages/usage/",
+      "revId": "9f425b28a6a885d762d2b57378e928211d7225e4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
