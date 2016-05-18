@@ -34,6 +34,57 @@
       "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_24e40a0c",
+        "filename": "distil/config.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-18T04:33:49Z",
+      "side": 1,
+      "message": "The default value should be 3600 and which should be added into the help message so that operator can see it with the conf sample.",
+      "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_a4a59ab6",
+        "filename": "distil/constants.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-18T04:33:49Z",
+      "side": 1,
+      "message": "It\u0027s a little bit weird to main this in constants. Why can\u0027t we just use distil.collector or adding a backends package under distil.collector?",
+      "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_4495ce3e",
+        "filename": "setup.cfg",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-18T04:33:49Z",
+      "side": 1,
+      "message": "(nit): add a space after \u003d",
+      "revId": "40c6854df0b6ddbf20b4c7c5d2ae29b3787dc9cf",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
