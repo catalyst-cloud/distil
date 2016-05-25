@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_437f3d66",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T02:27:35Z",
+      "side": 1,
+      "message": "can we move out these logic to make it a general one? so it can be used by both get_cost and get_usage.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 49
+      },
+      "revId": "eaac53c020a3adeacccd15bb7f3862e6292f2d61",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_43f61dfa",
+        "filename": "distil/exceptions.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T02:27:35Z",
+      "side": 1,
+      "message": "the message is not accurate.",
+      "revId": "eaac53c020a3adeacccd15bb7f3862e6292f2d61",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
