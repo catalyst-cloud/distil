@@ -1,0 +1,203 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_12c74113",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "import convention",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_52d1c9cc",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "raise?",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_32d405bc",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "hmm...from refactoring perspective, db method should always return db objects, we could provide something like to_dict() to get dict we expect.",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 25
+      },
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_45262569",
+        "filename": "distil/rater/odoo.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "how about:\n\n    for category in six.itervalues(self.prices):\n        for product in six.itervalues(category):\n            if ...\n\nstill ugly, but reduce the loop number.",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_857c8d21",
+        "filename": "distil/rater/rate_file.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "import order, please forgive a man with OCD :-)",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_25b321eb",
+        "filename": "distil/rater/rate_file.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "oslo_log should be used for logging",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_653a4936",
+        "filename": "distil/rater/rate_file.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "we could raise a DistilException here.",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_af189276",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "the import orders should be complied according to https://www.python.org/dev/peps/pep-0008/#imports",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_8faf8ee2",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "shouldn\u0027t \u0027valid_project\u0027 return an db object?",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_529f0903",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "how about making this global or wrapping functions in this file into a class?",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 55
+      },
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_b2e0f597",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2016-05-25T01:36:19Z",
+      "side": 1,
+      "message": "please move this document string above",
+      "revId": "fb55302fb0c296ea1c4ee89415d9943f9510330e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
