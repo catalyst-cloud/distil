@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_c0dbe37a",
+        "filename": "distil/collector/base.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-05-26T01:18:11Z",
+      "side": 1,
+      "message": "It\u0027s not safe to do this at this moment. Since this method is still consuming by current api.",
+      "revId": "9e74691208736eaf367feb8f094ddc913c7698b4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
