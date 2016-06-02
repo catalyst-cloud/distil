@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abb7d3a_116d9632",
+        "filename": "distil/utils/general.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-06-02T22:47:07Z",
+      "side": 1,
+      "message": "Given we\u0027re using a global var to cache the config, so can we remove this comment?",
+      "revId": "30f8554cfea7555186ad30d3589150e3a5df0107",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
