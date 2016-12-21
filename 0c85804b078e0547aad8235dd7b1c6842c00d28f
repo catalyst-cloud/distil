@@ -46,6 +46,30 @@
       "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da4df55a_17dd9c70",
+        "filename": "distil/utils/constants.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-12-21T20:08:44Z",
+      "side": 1,
+      "message": "However, the problem is though we can get the regions names from Keystone, we still need a place to store the mapping relationship, because in Odoo, we(or the potential deployer) may use a different format of the region names.",
+      "parentUuid": "da4df55a_b79f70b3",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 65
+      },
+      "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
