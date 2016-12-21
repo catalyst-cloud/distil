@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a6eadb0_5fe8887c",
+        "filename": "distil/utils/constants.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2016-12-21T03:02:29Z",
+      "side": 1,
+      "message": "I\u0027m not happy hardcoding something like this, since we can query it from keystone, and it means that new regions aren\u0027t automatically added.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 65
+      },
+      "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
