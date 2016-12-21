@@ -22,6 +22,30 @@
       "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da4df55a_b79f70b3",
+        "filename": "distil/utils/constants.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2016-12-21T20:06:00Z",
+      "side": 1,
+      "message": "Exactly, given it\u0027s a community project now :D",
+      "parentUuid": "1a6eadb0_5fe8887c",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 65
+      },
+      "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
