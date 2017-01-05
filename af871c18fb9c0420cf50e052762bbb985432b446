@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba5201f7_55730c15",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-05T03:41:11Z",
+      "side": 1,
+      "message": "This change is related to the cache support because we need a better parameters to get a good key for caching.",
+      "revId": "af871c18fb9c0420cf50e052762bbb985432b446",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
