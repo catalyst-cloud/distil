@@ -94,6 +94,30 @@
       "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba5201f7_b597d838",
+        "filename": "distil/utils/constants.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-05T03:31:28Z",
+      "side": 1,
+      "message": "I have fixed this at https://review.openstack.org/#/c/409722/5/distil/config.py but forgot to delete this line. Will fix it in next ps.",
+      "parentUuid": "ba5201f7_35e68844",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 65
+      },
+      "revId": "0c85804b078e0547aad8235dd7b1c6842c00d28f",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
