@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "ba5201f7_f52880e4",
+        "filename": "distil/common/__init__.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-01-05T03:39:38Z",
+      "side": 1,
+      "message": "code in this file already existed in distil/rater/__init__.py",
+      "revId": "e54e692279e98b437ce684b9b30683e074413346",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba5201f7_b5e518dd",
         "filename": "distil/common/cache.py",
         "patchSetId": 5
