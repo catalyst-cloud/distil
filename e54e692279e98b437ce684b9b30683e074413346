@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba5201f7_b5e518dd",
+        "filename": "distil/common/cache.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-01-05T03:34:43Z",
+      "side": 1,
+      "message": "oslo.cache has a method \u0027get_memoization_decorator\u0027, why not use it directly? I\u0027m not expert on oslo_cache, just saw from its documentation http://docs.openstack.org/developer/oslo.cache/api/oslo_cache.html#oslo_cache.core.get_memoization_decorator",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 18
+      },
+      "revId": "e54e692279e98b437ce684b9b30683e074413346",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
