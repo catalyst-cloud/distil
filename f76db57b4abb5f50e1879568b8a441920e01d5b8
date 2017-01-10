@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba5201f7_29085e91",
+        "filename": "distil/tests/unit/common/test_cache.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-10T03:23:41Z",
+      "side": 1,
+      "message": "I will propose another patch to rename the distil/utils to common to avoid conflicts in tests.",
+      "revId": "f76db57b4abb5f50e1879568b8a441920e01d5b8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
