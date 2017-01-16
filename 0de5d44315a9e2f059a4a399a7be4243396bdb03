@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a3c09a3_2e25dcc1",
+        "filename": "distil/transformer/conversion.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-16T00:54:12Z",
+      "side": 1,
+      "message": "Please add a test case for this change.",
+      "revId": "0de5d44315a9e2f059a4a399a7be4243396bdb03",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a3c09a3_ee43d46a",
+        "filename": "distil/transformer/conversion.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-16T00:54:12Z",
+      "side": 1,
+      "message": "Could you add a test case for this change? And BTW, create a new package under distil/tests/unit/transformer for those transformer\u0027s test cases.",
+      "revId": "0de5d44315a9e2f059a4a399a7be4243396bdb03",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
