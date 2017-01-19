@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a3905b3_5ce74940",
+        "filename": "distil/transformer/conversion.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-01-19T04:04:53Z",
+      "side": 1,
+      "message": "except for renaming from \u0027resource_metadata\u0027 to \u0027metadata\u0027, I didn\u0027t make any change to exsiting transformer. Just move \u0027InstanceUptime\u0027 transformer here, because it\u0027s what we are using.",
+      "parentUuid": "7a3c09a3_2e25dcc1",
+      "revId": "0de5d44315a9e2f059a4a399a7be4243396bdb03",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a3c09a3_ee43d46a",
         "filename": "distil/transformer/conversion.py",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2017-01-16T00:54:12Z",
       "side": 1,
       "message": "Could you add a test case for this change? And BTW, create a new package under distil/tests/unit/transformer for those transformer\u0027s test cases.",
+      "revId": "0de5d44315a9e2f059a4a399a7be4243396bdb03",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3905b3_dcaa5985",
+        "filename": "distil/transformer/conversion.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-01-19T04:04:53Z",
+      "side": 1,
+      "message": "The same as here, I didn\u0027t change the existing logic of current distil. Please take a look at https://github.com/openstack/distil/blob/master/distil/transformers.py#L286-L288, I guess the logic was changed when you doing refactor. I just change it back. Otherwise, it will cause exception in some cases (e.g. all the \u0027volume\u0027 value in data \u003d2, max([]) will raise an error.)",
+      "parentUuid": "7a3c09a3_ee43d46a",
       "revId": "0de5d44315a9e2f059a4a399a7be4243396bdb03",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
