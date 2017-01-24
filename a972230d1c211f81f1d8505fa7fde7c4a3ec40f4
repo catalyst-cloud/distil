@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3905b3_783d1fdc",
+        "filename": "distil/tests/unit/transformer/__init__.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-24T02:57:05Z",
+      "side": 1,
+      "message": "Why do we need this?",
+      "revId": "a972230d1c211f81f1d8505fa7fde7c4a3ec40f4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3905b3_2c5d1815",
+        "filename": "distil/transformer/conversion.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-24T02:57:05Z",
+      "side": 1,
+      "message": "Adrian, could you pls double check it\u0027s correct? Thanks.",
+      "revId": "a972230d1c211f81f1d8505fa7fde7c4a3ec40f4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
