@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3905b3_329bb819",
+        "filename": "distil/common/api.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-24T01:37:12Z",
+      "side": 0,
+      "message": "I think we still need to keep the general Exception in case there is unexpected error.",
+      "revId": "857f2e80ee4dc9f3b908f0e9abcbcbe009c4d13c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}

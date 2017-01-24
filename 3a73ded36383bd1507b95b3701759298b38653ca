@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3905b3_5259248d",
+        "filename": "distil/exceptions.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-24T01:37:12Z",
+      "side": 1,
+      "message": "shouldn\u0027t it be 400?",
+      "revId": "3a73ded36383bd1507b95b3701759298b38653ca",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3905b3_725c607d",
+        "filename": "distil/exceptions.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-01-24T01:37:12Z",
+      "side": 1,
+      "message": "400?",
+      "revId": "3a73ded36383bd1507b95b3701759298b38653ca",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
