@@ -22,6 +22,30 @@
       "revId": "11984406a2dbf78661aed2ccedc6e0e390d99a76",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa31d9ce_6c43536d",
+        "filename": "distil/api/web.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-16T21:40:24Z",
+      "side": 1,
+      "message": "1. All the methods proposed by Mark may lock the DB and then cause the API out of service for hours.\n2. I haven\u0027t tested the code yet, so could be a bug here.\n3. Yes, I know it may impact the consumers of /usage API. Patches will be proposed to address this mapping. If you think it\u0027s ugly, feel free to propose a better way to address this issue.",
+      "parentUuid": "fa31d9ce_5f764f07",
+      "range": {
+        "startLine": 190,
+        "startChar": 28,
+        "endLine": 190,
+        "endChar": 39
+      },
+      "revId": "11984406a2dbf78661aed2ccedc6e0e390d99a76",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
