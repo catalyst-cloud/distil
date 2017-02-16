@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa31d9ce_f31e6d5d",
+        "filename": "distil/api/web.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-02-16T03:06:50Z",
+      "side": 1,
+      "message": "probably want to do:\nhashlib.md5(res.encode(\u0027utf-8\u0027)).hexdigest()\n\nas this otherwise just return the instance of the has object.",
+      "range": {
+        "startLine": 191,
+        "startChar": 26,
+        "endLine": 191,
+        "endChar": 58
+      },
+      "revId": "65d69d0b114dba148a6f96d6f0c4a80fc7575440",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
