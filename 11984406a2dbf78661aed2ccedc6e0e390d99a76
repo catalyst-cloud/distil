@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa31d9ce_5f764f07",
+        "filename": "distil/api/web.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-02-16T11:05:04Z",
+      "side": 1,
+      "message": "3 questions:\n\n- maybe i missed your discussion, are we still going to modify the db schema to fix the problem? if yes, why we need this change?\n- from the code logic below, the \u0027original_id\u0027 won\u0027t be stored in db.\n- this change will also affect billing panel, when user click \u0027object storage\u0027, the resource id will be a unuseful hash string instead of container name.  again, it\u0027s ugly if we add another logic to handle swift case for billing panel.",
+      "range": {
+        "startLine": 190,
+        "startChar": 28,
+        "endLine": 190,
+        "endChar": 39
+      },
+      "revId": "11984406a2dbf78661aed2ccedc6e0e390d99a76",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
