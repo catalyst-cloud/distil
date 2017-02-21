@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_cd3a3e98",
+        "filename": "distil/collector/base.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-21T22:03:24Z",
+      "side": 0,
+      "message": "Why do we need to remove this and below log?",
+      "revId": "6d1dec6cd926d9ea11b7aeea5866a3020b318b8b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}

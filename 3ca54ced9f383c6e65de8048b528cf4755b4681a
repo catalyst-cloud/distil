@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_9702190a",
+        "filename": "distil/collector/base.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-21T22:03:24Z",
+      "side": 1,
+      "message": "I\u0027d like to see a NOTE, TODO or FIXME about this change to explain why do we need to do this and anything we can do to improve this.",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_b279ebfe",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-21T22:03:24Z",
+      "side": 1,
+      "message": "(Question): any reason it\u0027s named as \u0027get_project_locks\u0027? Does that mean there could be many locks for one project?",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_92730715",
+        "filename": "distil/service/collector.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-21T22:03:24Z",
+      "side": 1,
+      "message": "(nit): It would be nice to print the collector name for debug purpose.",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_6de87211",
+        "filename": "distil/tests/unit/db/test_sqlalchemy_db_api.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-02-21T22:03:24Z",
+      "side": 1,
+      "message": "What happened if there is an inner \u0027with\u0027 try to get the lock?",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
