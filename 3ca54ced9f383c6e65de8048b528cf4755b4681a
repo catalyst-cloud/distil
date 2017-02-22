@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da36d5c6_301fb260",
+        "filename": "distil/collector/base.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-02-22T00:10:45Z",
+      "side": 1,
+      "message": "It\u0027s moved here from old distil code, i will add a note according to my understanding.",
+      "parentUuid": "da36d5c6_9702190a",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da36d5c6_b279ebfe",
         "filename": "distil/db/sqlalchemy/api.py",
         "patchSetId": 14
@@ -30,6 +48,24 @@
       "writtenOn": "2017-02-21T22:03:24Z",
       "side": 1,
       "message": "(Question): any reason it\u0027s named as \u0027get_project_locks\u0027? Does that mean there could be many locks for one project?",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_10654ee0",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-02-22T00:10:45Z",
+      "side": 1,
+      "message": "Explained f2f. Project lock record may not exist, getting a list here makes it easy to check for outer function.",
+      "parentUuid": "da36d5c6_b279ebfe",
       "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da36d5c6_909f7eb3",
+        "filename": "distil/service/collector.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-02-22T00:10:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da36d5c6_92730715",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da36d5c6_6de87211",
         "filename": "distil/tests/unit/db/test_sqlalchemy_db_api.py",
         "patchSetId": 14
@@ -64,6 +118,24 @@
       "writtenOn": "2017-02-21T22:03:24Z",
       "side": 1,
       "message": "What happened if there is an inner \u0027with\u0027 try to get the lock?",
+      "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_90edbe27",
+        "filename": "distil/tests/unit/db/test_sqlalchemy_db_api.py",
+        "patchSetId": 14
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-02-22T00:10:45Z",
+      "side": 1,
+      "message": "Not sure I understand your question, you want to check:\n\n    with db_api.project_lock(project_id, owner):\n        with db_api.project_lock(project_id, owner):\n            ....\n\n?",
+      "parentUuid": "da36d5c6_6de87211",
       "revId": "3ca54ced9f383c6e65de8048b528cf4755b4681a",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
