@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_183688b4",
+        "filename": "distil/helpers.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 14394
+      },
+      "writtenOn": "2017-02-28T13:03:21Z",
+      "side": 1,
+      "message": "I tested this change locally, and from what I can tell this parameter is called \u0027api_key\u0027 in novaclient.Client versions 2.29[1] up until 5.1.0.\n\nI could only make this work in python-novaclient\u003d\u003d6.0.0\n\nI\u0027ve tested the old code separately, and though it produces a deprecation warning it works up to python-novaclient\u003d\u003d4.1.0\n\nI think we need to either update our requirements.txt, or change this to api_key and set maximum version of 5.1.0 in the upper constraints that we build against.\n\n[1] minimum tested, from requirements.txt",
+      "range": {
+        "startLine": 38,
+        "startChar": 12,
+        "endLine": 38,
+        "endChar": 45
+      },
+      "revId": "c4b9e88d3487cc768d9c5dcc561719dff66b314c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
