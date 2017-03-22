@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1ced50_6556792b",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T02:50:19Z",
+      "side": 1,
+      "message": "(nit): Does it sound better if using \u0027get_service_name_mapping\u0027?",
+      "revId": "38e0b863524f2e8242bb58aef83d729b623feab3",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
