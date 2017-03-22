@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1ced50_e9188377",
+        "filename": "distil/config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T02:50:11Z",
+      "side": 1,
+      "message": "How to get current month cost from Odoo if it\u0027s the default behaviour?",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_893c6fc9",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T02:50:11Z",
+      "side": 1,
+      "message": "Can we get rid of this because it\u0027s Catalyst specific stuff?",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_a9392bd9",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T02:50:11Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
