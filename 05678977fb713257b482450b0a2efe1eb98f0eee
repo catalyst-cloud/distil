@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1a1ced50_49a9978f",
+        "filename": "distil/config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T03:04:08Z",
+      "side": 1,
+      "message": "For that case, shouldn\u0027t we use \u0027False\u0027 as the default value?",
+      "parentUuid": "1a1ced50_c953c7e0",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1ced50_893c6fc9",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 11
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "We have to do this to get object storage products price information, it\u0027s a little special defined in odoo.\n\nIn fact, The whole odoo driver implementation is catalyst specific stuff (our own specific model definiation, etc.)",
       "parentUuid": "1a1ced50_893c6fc9",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_c99d8767",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-22T03:04:08Z",
+      "side": 1,
+      "message": "Yep, I know the odoo driver is designed for Catalyst, but it would be nice to avoid any NZ/Catalyst words in the code, especially hardcode.",
+      "parentUuid": "1a1ced50_49db574f",
       "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
