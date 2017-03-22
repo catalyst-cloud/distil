@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a1ced50_c953c7e0",
+        "filename": "distil/config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-03-22T02:58:40Z",
+      "side": 1,
+      "message": "The config option is actually for other erp drivers. We can not get current month cost by querying odoo, but maybe it\u0027s not the case for other erp systems.",
+      "parentUuid": "1a1ced50_e9188377",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1ced50_893c6fc9",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 11
@@ -30,6 +48,24 @@
       "writtenOn": "2017-03-22T02:50:11Z",
       "side": 1,
       "message": "Can we get rid of this because it\u0027s Catalyst specific stuff?",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_49db574f",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-03-22T02:58:40Z",
+      "side": 1,
+      "message": "We have to do this to get object storage products price information, it\u0027s a little special defined in odoo.\n\nIn fact, The whole odoo driver implementation is catalyst specific stuff (our own specific model definiation, etc.)",
+      "parentUuid": "1a1ced50_893c6fc9",
       "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
