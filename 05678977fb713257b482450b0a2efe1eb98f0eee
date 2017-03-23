@@ -55,6 +55,29 @@
     },
     {
       "key": {
+        "uuid": "1a1ced50_0eb92fcc",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-03-23T04:17:45Z",
+      "side": 1,
+      "message": "See comment in api/v2/costs",
+      "range": {
+        "startLine": 69,
+        "startChar": 16,
+        "endLine": 70,
+        "endChar": 28
+      },
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1ced50_893c6fc9",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 11
@@ -108,6 +131,29 @@
     },
     {
       "key": {
+        "uuid": "1a1ced50_ce61d7d4",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-03-23T04:17:45Z",
+      "side": 1,
+      "message": "if r is None this will fall over.",
+      "range": {
+        "startLine": 110,
+        "startChar": 26,
+        "endLine": 110,
+        "endChar": 29
+      },
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1ced50_a9392bd9",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 11
@@ -119,6 +165,75 @@
       "writtenOn": "2017-03-22T02:50:11Z",
       "side": 1,
       "message": "ditto",
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_33881471",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-03-23T04:17:45Z",
+      "side": 1,
+      "message": "It would be better if a mapping like this was put into a conf of some sort.",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 1
+      },
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_4e340749",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-03-23T04:17:45Z",
+      "side": 1,
+      "message": "If region is None, then doing this will throw a KeyError.",
+      "range": {
+        "startLine": 320,
+        "startChar": 52,
+        "endLine": 320,
+        "endChar": 60
+      },
+      "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1ced50_4e0b277d",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-03-23T04:17:45Z",
+      "side": 1,
+      "message": "This will cause some odd problems as [None, ] is True. I see you do a if region in list is none check in get_projects in one place, but not all of them.\n\nIt is probably better to here just do:\nif region:\n    regions \u003d [region, ]\nelse:\n    regions \u003d []\n\nBut that doesn\u0027t solve the None KeyError problem.\n\nI think you probably want to rethink the logic here around region\u003dNone. Maybe make region a required value, as you aren\u0027t doing any multi-region stuff here and if you did want region\u003dNone to get all regions, then it would need to talk to the other distil services.\n\nRegion\u003dNone only makes sense if you want historic data, but not current.",
+      "range": {
+        "startLine": 320,
+        "startChar": 43,
+        "endLine": 320,
+        "endChar": 51
+      },
       "revId": "05678977fb713257b482450b0a2efe1eb98f0eee",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
