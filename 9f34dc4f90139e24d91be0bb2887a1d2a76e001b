@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfeb2761_b209a0de",
+        "filename": "distil/database.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-03-31T03:28:38Z",
+      "side": 1,
+      "message": "pollster",
+      "revId": "9f34dc4f90139e24d91be0bb2887a1d2a76e001b",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
