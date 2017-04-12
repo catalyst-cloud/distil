@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bff0334d_8101e33a",
+        "filename": "distil/collector/base.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-04-12T03:44:34Z",
+      "side": 0,
+      "message": "Why remove this?",
+      "revId": "0ddad09389445765c0a561233a1815ebb20d9042",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bff0334d_c1eb6b75",
+        "filename": "distil/tests/unit/base.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-04-12T03:44:34Z",
+      "side": 0,
+      "message": "Why do we need to remove this?",
+      "revId": "0ddad09389445765c0a561233a1815ebb20d9042",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
