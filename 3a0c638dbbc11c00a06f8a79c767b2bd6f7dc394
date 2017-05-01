@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_3a47c379",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 19
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-01T23:49:08Z",
+      "side": 1,
+      "message": "Instead of using format \u0027NZ-POR-1\u0027 in the response. Now I think it would be better to use \u0027nz-por-1\u0027 to avoid converting it in customer\u0027s code.",
+      "revId": "3a0c638dbbc11c00a06f8a79c767b2bd6f7dc394",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_bd150d3f",
+        "filename": "distil/service/api/v2/costs.py",
+        "patchSetId": 19
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-01T23:49:08Z",
+      "side": 1,
+      "message": "(Q): If we do need a to get one day usage/cost, the input parameters should be, for example, 2017-05-01 to 2017-05-02. So I don\u0027t really understand why we need a end\u003dstart case.",
+      "revId": "3a0c638dbbc11c00a06f8a79c767b2bd6f7dc394",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
