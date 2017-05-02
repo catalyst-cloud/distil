@@ -16,6 +16,24 @@
       "revId": "db230a8820e37619b507bdeb54c82b342d2d5b08",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_2010b256",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-02T01:38:02Z",
+      "side": 1,
+      "message": "Good idea :) will submit a patch quickly.",
+      "parentUuid": "5ff73747_40a05e42",
+      "revId": "db230a8820e37619b507bdeb54c82b342d2d5b08",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
