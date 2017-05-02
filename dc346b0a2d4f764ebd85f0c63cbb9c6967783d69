@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_a5871062",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-05-02T23:22:21Z",
+      "side": 1,
+      "message": "agreed.\n\nWe don\u0027t have anything to backwards support yet and this is mostly a useless endpoint now.",
+      "parentUuid": "5ff73747_657348b3",
+      "revId": "dc346b0a2d4f764ebd85f0c63cbb9c6967783d69",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_056244d9",
         "filename": "distil/erp/driver.py",
         "patchSetId": 2
