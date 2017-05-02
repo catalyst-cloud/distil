@@ -16,6 +16,24 @@
       "revId": "a55be375bca6bfe911b575565ba59877a7ea9b69",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_8f79eac5",
+        "filename": "distil/db/migration/alembic_migrations/versions/001_init_tables.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-02T09:32:09Z",
+      "side": 1,
+      "message": "Just reply for other reviewers:\n\nThe current alembic migration is good for a new distil deployment, you can repeat \u0027distil-db-migration upgrade head\u0027 again and again during puppet runs, all tables will be created properly at the first run.\n\nBut in our case, we have all the tables created before the first run of \u0027distil-db-migration upgrade head\u0027, it will fail with error message like \u0027table already exists\u0027. Alembic doesn\u0027t support specifying something like http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Table.params.keep_existing in sqlalchemy to skip creating table if it\u0027s already there.\n\nSo, we have to hack CreateTable directive which is used by Alembic to workaround this issue.",
+      "parentUuid": "5ff73747_6be21bd7",
+      "revId": "a55be375bca6bfe911b575565ba59877a7ea9b69",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
