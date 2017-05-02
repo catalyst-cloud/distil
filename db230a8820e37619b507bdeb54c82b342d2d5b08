@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_40a05e42",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T01:30:49Z",
+      "side": 1,
+      "message": "(nit): Instead of iterate the regions. We can just simply check if the regions is a sub set of actual_regions.",
+      "revId": "db230a8820e37619b507bdeb54c82b342d2d5b08",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
