@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_e5175845",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T23:16:22Z",
+      "side": 1,
+      "message": "As we discussed, I\u0027d like to see this function to be renamed as \"_get_args()\" or \"_get_input_args()\", so that it can be reused by any other api. And even though the other api just want to get the project_id, it can call this like below:\n\nproject_id, _, _ \u003d _get_input_args()",
+      "revId": "0a2a1a2c974396a54e614d2892659daac419e337",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_8520949d",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T23:16:22Z",
+      "side": 1,
+      "message": "(nit): The detailed line can be moved to above _get_input_args()",
+      "revId": "0a2a1a2c974396a54e614d2892659daac419e337",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_7a39a7f0",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T23:16:22Z",
+      "side": 1,
+      "message": "Can you please remove this? Because it\u0027s designed to be the same meaning like \u0027invoices\u0027.",
+      "revId": "0a2a1a2c974396a54e614d2892659daac419e337",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_c54b3c5d",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T23:16:22Z",
+      "side": 1,
+      "message": "Could we move this date handling functions to distil/common?",
+      "revId": "0a2a1a2c974396a54e614d2892659daac419e337",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_655a282b",
+        "filename": "distil/service/api/v2/utils.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-02T23:16:22Z",
+      "side": 1,
+      "message": "Why not create this in distil/common?",
+      "revId": "0a2a1a2c974396a54e614d2892659daac419e337",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
