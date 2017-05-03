@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_a08dbe32",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-03T00:53:14Z",
+      "side": 1,
+      "message": "I agree this api should be removed, but I prefer we do this in another patch, also we need to rename \u0027service/api/v2/costs.py\u0027 to \u0027service/api/v2/measurements.py\u0027 because it will only contain measurement related functions after we remove cost api.",
+      "parentUuid": "5ff73747_a5871062",
+      "revId": "dc346b0a2d4f764ebd85f0c63cbb9c6967783d69",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_056244d9",
         "filename": "distil/erp/driver.py",
         "patchSetId": 2
