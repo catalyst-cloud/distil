@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_4acbb471",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-03T03:34:23Z",
+      "side": 1,
+      "message": "can we rename it with \u0027_get_request_args\u0027? the /credits API will use it as well. So \u0027_get_usage_args\u0027 is not suitable any more.",
+      "revId": "cfd7ab2a010c5c0f9a52396d667303995613a3f7",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
