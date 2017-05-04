@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "3f044301_7ccbee1d",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-04T04:39:37Z",
+      "side": 1,
+      "message": "Yeah, after testing, what you said is right, I will remove the None.",
+      "parentUuid": "3f044301_5c34b24a",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f044301_595ba486",
         "filename": "distil/api/v2.py",
         "patchSetId": 7
@@ -155,6 +173,24 @@
       "side": 1,
       "message": "I tested and it works fine. I also reviewed sahara\u0027s code, they\u0027re using the same way, see https://github.com/openstack/sahara/blob/master/sahara/api/v2/data_sources.py#L33\n\nTBH, I don\u0027t like current way, it\u0027s not a simple way. Otherwise, can we work out a better way than this?",
       "parentUuid": "3f044301_7cbc0ebb",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f044301_bc7cd6b5",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-04T04:39:37Z",
+      "side": 1,
+      "message": "A better way in my opinion is, the needed inputs are all ready (prepared before getting into invoices_get() funtion) when we call invoices.get_invoices() function.\n\nThe current way in my change and the sahara way are both ugly. We should make the function input more clear and more readable.\n\nIf we still have input definition and validation enhancement in our roadmap, we could leave that in future.\n\nHowever, if you insist we change it now, I can do that to make you happy :-)",
+      "parentUuid": "3f044301_9c059a7d",
       "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
