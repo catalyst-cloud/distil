@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f044301_31f7d2f8",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-04T03:25:33Z",
+      "side": 1,
+      "message": "Can we remove this line? Since we don\u0027t need to consider backward compatibility anymore.",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f044301_f1d84a80",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-04T03:25:33Z",
+      "side": 1,
+      "message": "(nit): You don\u0027t have to set the default None, because it has been set above.",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f044301_595ba486",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-04T03:25:33Z",
+      "side": 1,
+      "message": "This change triggers me an idea, seems we\u0027re making this more and more complex. Could we just use:\n\nreturn api.render(invoices.get_invoices(**api.get_request_args().to_dict()))",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f044301_2b5e45e6",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-04T03:25:33Z",
+      "side": 1,
+      "message": "Replace \u0027Odoo\u0027 with \u0027backend ERP\u0027? since this is the base class.",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
