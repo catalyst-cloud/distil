@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "3f044301_7cbc0ebb",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-05-04T04:16:11Z",
+      "side": 1,
+      "message": "And as I mentioned to you yesterday, in future it\u0027s better to do the request params definition and parse/validation by using some mechanism that could integrate with Flask.",
+      "parentUuid": "3f044301_3c88c61d",
+      "revId": "5dda258e191e9070352ceeca3e15495abc9d5b1e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f044301_2b5e45e6",
         "filename": "distil/erp/driver.py",
         "patchSetId": 7
