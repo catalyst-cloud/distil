@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_ab339a13",
+        "filename": "distil/tests/unit/erp/drivers/test_odoo.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-25T01:28:40Z",
+      "side": 1,
+      "message": "TBH, the resource type looks weird for me. Can you remind me if we have a resource type in the odoo invoice?",
+      "revId": "2ff5b1518cbb5d1ebb6bad5c7cc4255d51f5222a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
