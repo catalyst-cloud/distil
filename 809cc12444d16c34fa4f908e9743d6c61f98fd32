@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_eb1f52b4",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-25T01:18:22Z",
+      "side": 1,
+      "message": "Though the original design is to let everybody know if the server is healthy or not, but I\u0027m OK to limit it to admin only as well.",
+      "revId": "809cc12444d16c34fa4f908e9743d6c61f98fd32",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_4ba07e42",
+        "filename": "distil/service/api/v2/health.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-25T01:18:22Z",
+      "side": 1,
+      "message": "The change is breaking the original design. Health can reflect the status of the distil server, not only just usage collecting, but also the other statuses we can collect for admin/operator.",
+      "revId": "809cc12444d16c34fa4f908e9743d6c61f98fd32",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_abc03ae2",
+        "filename": "distil/tests/unit/service/api/v2/test_health.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-05-25T01:18:22Z",
+      "side": 1,
+      "message": "Thanks for adding the test.",
+      "revId": "809cc12444d16c34fa4f908e9743d6c61f98fd32",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
