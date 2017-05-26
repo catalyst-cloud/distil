@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_b198841b",
+        "filename": "distil/db/sqlalchemy/api.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 23630
+      },
+      "writtenOn": "2017-05-26T03:06:57Z",
+      "side": 1,
+      "message": "`criteria[\u0027op\u0027] \u003d\u003d \u0027in\u0027` is a better convention",
+      "range": {
+        "startLine": 128,
+        "startChar": 15,
+        "endLine": 128,
+        "endChar": 37
+      },
+      "revId": "89d85cc064d961ba8389c40d6cbe980e39c5248a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
