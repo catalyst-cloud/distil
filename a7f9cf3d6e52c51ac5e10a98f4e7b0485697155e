@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_a86f7efa",
+        "filename": "distil/tests/unit/service/test_collector.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-02T00:43:54Z",
+      "side": 1,
+      "message": "Can you please add an additional project here that isn\u0027t in mock_get_projects, but is in distil db with an even older date.\n\nWhile I know the code does it, I\u0027d like the test to ensure that it only checks for the lowest last collected date for projects still in Keystone.",
+      "range": {
+        "startLine": 118,
+        "startChar": 8,
+        "endLine": 135,
+        "endChar": 9
+      },
+      "revId": "a7f9cf3d6e52c51ac5e10a98f4e7b0485697155e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
