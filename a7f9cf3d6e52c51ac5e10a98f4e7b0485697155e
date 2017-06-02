@@ -22,6 +22,30 @@
       "revId": "a7f9cf3d6e52c51ac5e10a98f4e7b0485697155e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_79eb6cdb",
+        "filename": "distil/tests/unit/service/test_collector.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-02T11:12:32Z",
+      "side": 1,
+      "message": "Fair enough, Adrian, I\u0027ll update the patch.",
+      "parentUuid": "df140735_a86f7efa",
+      "range": {
+        "startLine": 118,
+        "startChar": 8,
+        "endLine": 135,
+        "endChar": 9
+      },
+      "revId": "a7f9cf3d6e52c51ac5e10a98f4e7b0485697155e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
