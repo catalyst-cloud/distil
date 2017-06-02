@@ -16,6 +16,24 @@
       "revId": "1c356de1fc3737ca5133ce9ff35dcec901ca1cee",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_6b7cc01e",
+        "filename": "distil/i18n.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 25055
+      },
+      "writtenOn": "2017-06-02T01:12:26Z",
+      "side": 1,
+      "message": "ok,Thanks for your advice~",
+      "parentUuid": "df140735_2b5ec811",
+      "revId": "1c356de1fc3737ca5133ce9ff35dcec901ca1cee",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
