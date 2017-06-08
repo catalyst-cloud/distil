@@ -22,6 +22,30 @@
       "revId": "219939acf0e56ff343d170ecb05ca9b9f9d7aad8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_495bc62d",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-08T04:11:53Z",
+      "side": 1,
+      "message": "no particular reason, just think \u0027health\u0027 is not a good candidate, and modified in order to get your attention when review.\n\nActually what I prefer is, we return a dictionary containing several keys according to several health check items, e.g.\n\n    {\n      \u0027collection\u0027: {\n        \u0027status\u0027: \u0027ok\u0027,\n        \u0027msg\u0027: \u0027blablabla\u0027\n      },\n      \u0027processes\u0027: {\n        \u0027stattus\u0027: \u0027error\u0027,\n        \u0027msg\u0027: \u0027blablabla\u0027\n      }\n    }\n\nrather than using \u0027health\u0027 or \u0027result\u0027 which is not necessary. Thoughts?",
+      "parentUuid": "bf091321_93510b12",
+      "range": {
+        "startLine": 66,
+        "startChar": 22,
+        "endLine": 66,
+        "endChar": 28
+      },
+      "revId": "219939acf0e56ff343d170ecb05ca9b9f9d7aad8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
