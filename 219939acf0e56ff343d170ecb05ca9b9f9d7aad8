@@ -46,6 +46,30 @@
       "revId": "219939acf0e56ff343d170ecb05ca9b9f9d7aad8",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_294ad226",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-08T04:28:31Z",
+      "side": 1,
+      "message": "I actually quite like that concept. Gives us a better way to provide status on specific things.",
+      "parentUuid": "bf091321_495bc62d",
+      "range": {
+        "startLine": 66,
+        "startChar": 22,
+        "endLine": 66,
+        "endChar": 28
+      },
+      "revId": "219939acf0e56ff343d170ecb05ca9b9f9d7aad8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
