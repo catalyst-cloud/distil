@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_93510b12",
+        "filename": "distil/api/v2.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-06-08T02:37:16Z",
+      "side": 1,
+      "message": "May I know why it\u0027s renamed?",
+      "range": {
+        "startLine": 66,
+        "startChar": 22,
+        "endLine": 66,
+        "endChar": 28
+      },
+      "revId": "219939acf0e56ff343d170ecb05ca9b9f9d7aad8",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
