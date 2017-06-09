@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_3519dcd6",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "Please change the param description.",
+      "range": {
+        "startLine": 43,
+        "startChar": 8,
+        "endLine": 43,
+        "endChar": 55
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_f57124e2",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 436,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "actually, this datetime is not expiry date, it\u0027s a datetime the expiry date is older than. How about we use a kwargs here (e.g. \"older_than\u003dNone\")?",
+      "range": {
+        "startLine": 436,
+        "startChar": 40,
+        "endLine": 436,
+        "endChar": 51
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_b573ace7",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "please see comment in https://review.openstack.org/#/c/461946/6/distil/service/api/v2/credits.py",
+      "range": {
+        "startLine": 446,
+        "startChar": 15,
+        "endLine": 446,
+        "endChar": 47
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_1546d87d",
+        "filename": "distil/service/api/v2/credits.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "imported but not used.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 31
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_d58860c7",
+        "filename": "distil/service/api/v2/credits.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "credit in odoo supports search by project_id, so no need to get project name here.\n\n    env_credit.search([(\u0027expiry_date\u0027, \u0027\u003e\u0027, today.isoformat()),(\u0027cloud_tenant.tenant_id\u0027, \u0027\u003d\u0027, \u0027515fd3a33b714414b4375c9b4404103d\u0027)])",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 64
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_8019887a",
+        "filename": "distil/tests/unit/service/api/v2/test_credits.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "The test doesn\u0027t involve db operations, so inherit from DistilTestCase is ok. (We have other files need to change, too)",
+      "range": {
+        "startLine": 25,
+        "startChar": 23,
+        "endLine": 25,
+        "endChar": 43
+      },
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_5531f00a",
+        "filename": "distil/tests/unit/service/api/v2/test_credits.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-09T03:10:15Z",
+      "side": 1,
+      "message": "please remove the whitespaces.",
+      "revId": "5fe928a981aa41413fbea5331a0c96884ebab82a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
