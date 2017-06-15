@@ -16,6 +16,24 @@
       "revId": "43adc47093bb890009be96477f954b4fef83465c",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_69483b5b",
+        "filename": "distil/db/api.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-15T03:22:31Z",
+      "side": 1,
+      "message": "This method was not used anywhere before, I kept it here for the convenience of testing (see its usage in https://review.openstack.org/#/c/473459/1/distil/tests/unit/api/test_api.py). And the params were changed based on the data model.",
+      "parentUuid": "7f231b9d_03e406e0",
+      "revId": "43adc47093bb890009be96477f954b4fef83465c",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
