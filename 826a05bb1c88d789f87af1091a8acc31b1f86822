@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_1200b2aa",
+        "filename": "distil/service/api/v2/credits.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-15T22:54:56Z",
+      "side": 1,
+      "message": "imported but not used. I wonder why pep8 didn\u0027t complain...",
+      "range": {
+        "startLine": 21,
+        "startChar": 26,
+        "endLine": 21,
+        "endChar": 35
+      },
+      "revId": "826a05bb1c88d789f87af1091a8acc31b1f86822",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_526e2a2f",
+        "filename": "distil/tests/unit/service/api/v2/test_credits.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-15T22:54:56Z",
+      "side": 1,
+      "message": "imported but not used",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 30
+      },
+      "revId": "826a05bb1c88d789f87af1091a8acc31b1f86822",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_326bae1e",
+        "filename": "distil/tests/unit/service/api/v2/test_credits.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-15T22:54:56Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 46
+      },
+      "revId": "826a05bb1c88d789f87af1091a8acc31b1f86822",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_52406aa5",
+        "filename": "distil/tests/unit/service/api/v2/test_credits.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-06-15T22:54:56Z",
+      "side": 1,
+      "message": "Do not need to mock keystone client.",
+      "range": {
+        "startLine": 32,
+        "startChar": 8,
+        "endLine": 32,
+        "endChar": 32
+      },
+      "revId": "826a05bb1c88d789f87af1091a8acc31b1f86822",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
