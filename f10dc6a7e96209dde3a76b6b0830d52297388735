@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_a7dbcc4c",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-19T03:54:19Z",
+      "side": 1,
+      "message": "I\u0027m not sure if we should really go with project name here. It\u0027s safer to always use project_id if we can.",
+      "range": {
+        "startLine": 50,
+        "startChar": 28,
+        "endLine": 50,
+        "endChar": 40
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_27efbce9",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-19T03:54:19Z",
+      "side": 1,
+      "message": "This None default confuses me, because it means that project_name is a requirement, but project_id isn\u0027t always.",
+      "range": {
+        "startLine": 51,
+        "startChar": 22,
+        "endLine": 51,
+        "endChar": 37
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_271a1c16",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-19T03:54:19Z",
+      "side": 1,
+      "message": "duplicate \"project id\"",
+      "range": {
+        "startLine": 54,
+        "startChar": 8,
+        "endLine": 56,
+        "endChar": 38
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_67d2542a",
+        "filename": "distil/service/api/v2/credits.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-06-19T03:54:19Z",
+      "side": 1,
+      "message": "It may be useful from an API perspective to allow this to be given. Because some customers may be interested about past credits that may have expired.",
+      "range": {
+        "startLine": 29,
+        "startChar": 46,
+        "endLine": 29,
+        "endChar": 69
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
