@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7f231b9d_07de00d9",
+        "filename": "distil/erp/driver.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-06-19T04:55:04Z",
+      "side": 1,
+      "message": "Nice catch. Actually, I shouldn\u0027t change this interface because we\u0027re not very clear how it should be. So I will reverse the change for this interface.",
+      "parentUuid": "7f231b9d_a7dbcc4c",
+      "range": {
+        "startLine": 50,
+        "startChar": 28,
+        "endLine": 50,
+        "endChar": 40
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f231b9d_27efbce9",
         "filename": "distil/erp/driver.py",
         "patchSetId": 11
@@ -82,6 +106,30 @@
       "writtenOn": "2017-06-19T03:54:19Z",
       "side": 1,
       "message": "It may be useful from an API perspective to allow this to be given. Because some customers may be interested about past credits that may have expired.",
+      "range": {
+        "startLine": 29,
+        "startChar": 46,
+        "endLine": 29,
+        "endChar": 69
+      },
+      "revId": "f10dc6a7e96209dde3a76b6b0830d52297388735",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_f9e4cc3d",
+        "filename": "distil/service/api/v2/credits.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-06-19T04:55:04Z",
+      "side": 1,
+      "message": "That\u0027s a valid point. But I will leave it to next stage until we get a request from our customer. The change is simple but may involve more test, however I\u0027d like to get this patch in so that it can be shipped in next deployment.",
+      "parentUuid": "7f231b9d_67d2542a",
       "range": {
         "startLine": 29,
         "startChar": 46,
