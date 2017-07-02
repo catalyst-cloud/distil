@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_d4f3aa9d",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 429,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-07-02T22:24:58Z",
+      "side": 1,
+      "message": "Why do we need to keep 6 digits for volume?",
+      "revId": "52eeb152838388e15c7c45a58bd97f4e1aa44164",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
