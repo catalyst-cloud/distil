@@ -34,6 +34,24 @@
       "revId": "52eeb152838388e15c7c45a58bd97f4e1aa44164",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_2273c0b3",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 429,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-07-03T01:57:34Z",
+      "side": 1,
+      "message": "Yep, it\u0027s OK for me to keep 3 digits for quantity to be consistent with Odoo.",
+      "parentUuid": "3f1d235d_5770bca5",
+      "revId": "52eeb152838388e15c7c45a58bd97f4e1aa44164",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
