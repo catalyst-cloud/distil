@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_a60ea438",
+        "filename": "distil/tests/unit/erp/drivers/test_odoo.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-07-04T00:02:08Z",
+      "side": 1,
+      "message": "As for the change we have done in this patch, except update existing test cases, I think we should add a test case which will make sure the data (with more digits) returned from Odoo can be transformed to correct digits.",
+      "revId": "5413dbb71f5c33e894f57690523555ef8c991350",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
