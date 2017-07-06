@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_ef5545fb",
+        "filename": "distil/service/collector.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-07-06T02:39:27Z",
+      "side": 1,
+      "message": "nit: something like \u0027collected\u0027 would be a better var name\n\nor even skip the var entirely:\n\nif self.collector.collect_usage(project, start, end):\n    count +\u003d 1",
+      "range": {
+        "startLine": 132,
+        "startChar": 20,
+        "endLine": 132,
+        "endChar": 23
+      },
+      "revId": "685e6b416ddbc8e92325c98a2aa621f000a9f5d0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
