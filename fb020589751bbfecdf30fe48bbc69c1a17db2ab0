@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_4ff7995a",
+        "filename": "distil/service/collector.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2017-07-06T03:15:24Z",
+      "side": 1,
+      "message": "*facepalm*\n\nThat\u0027s what tests are for!",
+      "range": {
+        "startLine": 132,
+        "startChar": 72,
+        "endLine": 132,
+        "endChar": 73
+      },
+      "revId": "fb020589751bbfecdf30fe48bbc69c1a17db2ab0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
