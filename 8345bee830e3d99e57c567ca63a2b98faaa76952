@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_11f37ea0",
+        "filename": "distil/config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2017-07-11T03:03:59Z",
+      "side": 1,
+      "message": "It would be nice if you can mention that the order is based on the project UUID not name.",
+      "revId": "8345bee830e3d99e57c567ca63a2b98faaa76952",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
