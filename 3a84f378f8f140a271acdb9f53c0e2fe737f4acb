@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff346bd7_9159ddff",
+        "filename": "distil/i18n.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 22406
+      },
+      "writtenOn": "2017-07-24T04:35:46Z",
+      "side": 1,
+      "message": "We should avoid importing like this. Bellow code will be much better and clearer.\n\nimport oslo_i18n\n\n_translators \u003d oslo_i18n.TranslatorFactory(domain\u003d\u0027distil\u0027)",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 49
+      },
+      "revId": "3a84f378f8f140a271acdb9f53c0e2fe737f4acb",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_91f2fd05",
+        "filename": "doc/source/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 22406
+      },
+      "writtenOn": "2017-07-24T04:35:46Z",
+      "side": 1,
+      "message": "Why don\u0027t simply use: html_last_updated_fmt \u003d \u0027%Y-%m-%d %H:%M\u0027? Another projects have same line.",
+      "range": {
+        "startLine": 176,
+        "startChar": 0,
+        "endLine": 183,
+        "endChar": 57
+      },
+      "revId": "3a84f378f8f140a271acdb9f53c0e2fe737f4acb",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_d1d1a559",
+        "filename": "doc/source/glossary.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 22406
+      },
+      "writtenOn": "2017-07-24T04:35:46Z",
+      "side": 1,
+      "message": "cloud",
+      "range": {
+        "startLine": 31,
+        "startChar": 41,
+        "endLine": 31,
+        "endChar": 47
+      },
+      "revId": "3a84f378f8f140a271acdb9f53c0e2fe737f4acb",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
