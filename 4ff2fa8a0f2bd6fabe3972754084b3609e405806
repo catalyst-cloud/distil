@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_fe4b5aad",
+        "filename": "distil/interface.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-07-31T02:07:36Z",
+      "side": 1,
+      "message": "Please also remove the parentheses.",
+      "revId": "4ff2fa8a0f2bd6fabe3972754084b3609e405806",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
