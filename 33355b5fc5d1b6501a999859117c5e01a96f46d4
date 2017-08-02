@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_4417e7ee",
+        "filename": "distil/api/helpers.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 19930
+      },
+      "writtenOn": "2017-08-02T07:15:25Z",
+      "side": 1,
+      "message": "IMO, separate to three importing parts is better.",
+      "revId": "33355b5fc5d1b6501a999859117c5e01a96f46d4",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
