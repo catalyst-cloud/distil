@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_84f4afd0",
+        "filename": "distil/tests/unit/test_models.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 19930
+      },
+      "writtenOn": "2017-08-02T07:13:30Z",
+      "side": 1,
+      "message": "Please import this lib as a third party library.",
+      "revId": "58457b5794e601b174d11b5a1abb7a921e95218a",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
