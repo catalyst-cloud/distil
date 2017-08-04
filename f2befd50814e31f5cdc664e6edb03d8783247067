@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_203362f8",
+        "filename": "distil/api/helpers.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19930
+      },
+      "writtenOn": "2017-08-04T04:38:42Z",
+      "side": 1,
+      "message": "If you decide to re-arrange them, please move json to built-in library group. Please read more about this [1].\n\n[1] https://www.python.org/dev/peps/pep-0008/#imports",
+      "revId": "f2befd50814e31f5cdc664e6edb03d8783247067",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
