@@ -22,6 +22,30 @@
       "revId": "c288a88d688b6c0b3c35de91aab57c7be285a75e",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f436f4f_7ae58d37",
+        "filename": "distil/service/api/v2/quotations.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-08-17T02:56:43Z",
+      "side": 1,
+      "message": "That\u0027s a good suggestion, Adrian. I will refactor it a little bit once we have distil v2 in keystone catalog.",
+      "parentUuid": "9f436f4f_9a3951d8",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 9
+      },
+      "revId": "c288a88d688b6c0b3c35de91aab57c7be285a75e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
