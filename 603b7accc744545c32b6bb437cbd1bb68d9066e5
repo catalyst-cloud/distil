@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f436f4f_bb4b7785",
+        "filename": "api-ref/source/products.inc",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-08-21T02:57:11Z",
+      "side": 1,
+      "message": "There are some extra spaces",
+      "revId": "603b7accc744545c32b6bb437cbd1bb68d9066e5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
