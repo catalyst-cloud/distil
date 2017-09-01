@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_09adda30",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 23630
+      },
+      "writtenOn": "2017-09-01T02:20:32Z",
+      "side": 1,
+      "message": "product",
+      "range": {
+        "startLine": 235,
+        "startChar": 26,
+        "endLine": 235,
+        "endChar": 47
+      },
+      "revId": "92bab4cea4d3b049cd65a6428957cf135587ba11",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_09d6fac4",
+        "filename": "distil/tests/unit/erp/drivers/test_odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 23630
+      },
+      "writtenOn": "2017-09-01T02:20:32Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "range": {
+        "startLine": 161,
+        "startChar": 56,
+        "endLine": 161,
+        "endChar": 76
+      },
+      "revId": "92bab4cea4d3b049cd65a6428957cf135587ba11",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
