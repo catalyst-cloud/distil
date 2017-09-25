@@ -22,6 +22,30 @@
       "revId": "cedaf808119a369f48266b00165973d7d8a5162d",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f515b1d_3831dc0c",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2017-09-25T09:29:03Z",
+      "side": 1,
+      "message": "Thanks for your review, but I don\u0027t think so, please see https://www.python.org/dev/peps/pep-0008/#indentation",
+      "parentUuid": "7f515b1d_382b1cec",
+      "range": {
+        "startLine": 442,
+        "startChar": 20,
+        "endLine": 442,
+        "endChar": 23
+      },
+      "revId": "cedaf808119a369f48266b00165973d7d8a5162d",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
