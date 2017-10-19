@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f4b6375_e2e28d2f",
+        "filename": "README.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 25254
+      },
+      "writtenOn": "2017-10-19T03:10:21Z",
+      "side": 1,
+      "message": "correct link as follow https://governance.openstack.org/tc/reference/tags/index.html",
+      "range": {
+        "startLine": 6,
+        "startChar": 13,
+        "endLine": 6,
+        "endChar": 71
+      },
+      "revId": "66936e6ae73facba09ef0d93239a3e99d14d72b0",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
