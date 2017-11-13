@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f485f77_c8767dd9",
+        "filename": "setup.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 25254
+      },
+      "writtenOn": "2017-11-13T07:43:19Z",
+      "side": 1,
+      "message": "Not sure correctly link for distil project. I think hom-page should direct link for distil project.",
+      "range": {
+        "startLine": 16,
+        "startChar": 12,
+        "endLine": 16,
+        "endChar": 39
+      },
+      "revId": "91f0b47c5f70e85de072d699665b5185210f9521",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
