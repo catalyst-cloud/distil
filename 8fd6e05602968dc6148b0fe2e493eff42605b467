@@ -115,6 +115,29 @@
       "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_a0bcc569",
+        "filename": "distil/tests/unit/erp/drivers/test_odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2018-03-25T23:30:19Z",
+      "side": 1,
+      "message": "Ignore my last comments, the total here is correct...",
+      "range": {
+        "startLine": 221,
+        "startChar": 34,
+        "endLine": 221,
+        "endChar": 38
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
