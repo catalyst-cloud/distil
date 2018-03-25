@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "bf659307_0059f158",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2018-03-25T23:43:13Z",
+      "side": 1,
+      "message": "I\u0027m not sure what you mean? This value is changing entirely to come from the product \u0027default_code\u0027 as defined in the get_products function. We\u0027re no longer getting anything from \u0027uos_id\u0027, the unit tests confirm this change.",
+      "parentUuid": "bf659307_20f0b590",
+      "range": {
+        "startLine": 247,
+        "startChar": 24,
+        "endLine": 247,
+        "endChar": 75
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_00da5116",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 1
