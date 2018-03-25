@@ -68,6 +68,29 @@
       "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_e0995d1f",
+        "filename": "distil/tests/unit/erp/drivers/test_odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2018-03-25T23:28:54Z",
+      "side": 1,
+      "message": "with gst, and the margin not there shouldn\u0027t this be 5.967?",
+      "range": {
+        "startLine": 177,
+        "startChar": 68,
+        "endLine": 177,
+        "endChar": 74
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
