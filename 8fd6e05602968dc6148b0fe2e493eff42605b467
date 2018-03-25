@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf659307_00c5713c",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-03-25T23:09:48Z",
+      "side": 1,
+      "message": "The config is already passed to the OdooDriver instance, no need to use the global variable.",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 15
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_20f0b590",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-03-25T23:09:48Z",
+      "side": 1,
+      "message": "The previous unit value is the second part of e.g. [1, \u0027Gigabyte-hour(s)\u0027], now it seems to be the whole thing, is that expected in this change?",
+      "range": {
+        "startLine": 247,
+        "startChar": 24,
+        "endLine": 247,
+        "endChar": 75
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_00da5116",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-03-25T23:09:48Z",
+      "side": 1,
+      "message": "The previous behavior is changed, please write something in docstring",
+      "range": {
+        "startLine": 273,
+        "startChar": 15,
+        "endLine": 273,
+        "endChar": 42
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
