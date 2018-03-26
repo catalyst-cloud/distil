@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "bf659307_fb490e60",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-03-26T00:08:12Z",
+      "side": 1,
+      "message": "Yeah, you are right, it\u0027s not the whole string of \u0027uos_id\u0027, it\u0027s \u0027default_code\u0027 of product in odoo. I\u0027m still curious which one we should use for product unit.",
+      "parentUuid": "bf659307_0059f158",
+      "range": {
+        "startLine": 247,
+        "startChar": 24,
+        "endLine": 247,
+        "endChar": 75
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_00da5116",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 1
