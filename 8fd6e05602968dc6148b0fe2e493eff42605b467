@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bf659307_fbc82e75",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2018-03-26T00:49:21Z",
+      "side": 1,
+      "message": "Nice catch. Will fix it.",
+      "parentUuid": "bf659307_00c5713c",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 15
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_20f0b590",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 1
@@ -96,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "bf659307_5bccba88",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2018-03-26T00:49:21Z",
+      "side": 1,
+      "message": "To be more clear, we\u0027re not exposting any useful unit with the format we were expecting from odoo, like [1, \u0027Gigabyte-hour(s)\u0027]. For some reasons I don\u0027t know, now we\u0027re getting [1, \u0027Unit(s)\u0027]. So, after discussed with Adrian, we won\u0027t change this part, but get the correct unit from product. That\u0027s the idea, hope that makes sense.",
+      "parentUuid": "bf659307_fb490e60",
+      "range": {
+        "startLine": 247,
+        "startChar": 24,
+        "endLine": 247,
+        "endChar": 75
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf659307_00da5116",
         "filename": "distil/erp/drivers/odoo.py",
         "patchSetId": 1
@@ -107,6 +155,30 @@
       "writtenOn": "2018-03-25T23:09:48Z",
       "side": 1,
       "message": "The previous behavior is changed, please write something in docstring",
+      "range": {
+        "startLine": 273,
+        "startChar": 15,
+        "endLine": 273,
+        "endChar": 42
+      },
+      "revId": "8fd6e05602968dc6148b0fe2e493eff42605b467",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf659307_dba52ab7",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2018-03-26T00:49:21Z",
+      "side": 1,
+      "message": "Will do.",
+      "parentUuid": "bf659307_00da5116",
       "range": {
         "startLine": 273,
         "startChar": 15,
