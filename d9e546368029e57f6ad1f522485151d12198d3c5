@@ -22,6 +22,30 @@
       "revId": "d9e546368029e57f6ad1f522485151d12198d3c5",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f6a8fd7_38a7e5bf",
+        "filename": "distil/service/api/v2/health.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2018-04-24T03:12:14Z",
+      "side": 1,
+      "message": "We can change it with a separated patch.",
+      "parentUuid": "9f6a8fd7_3295c633",
+      "range": {
+        "startLine": 50,
+        "startChar": 46,
+        "endLine": 50,
+        "endChar": 52
+      },
+      "revId": "d9e546368029e57f6ad1f522485151d12198d3c5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
