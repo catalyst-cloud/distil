@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_3295c633",
+        "filename": "distil/service/api/v2/health.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-04-24T00:14:35Z",
+      "side": 1,
+      "message": "Please also make this configurable, to be consistent with what nagios check does previously.",
+      "range": {
+        "startLine": 50,
+        "startChar": 46,
+        "endLine": 50,
+        "endChar": 52
+      },
+      "revId": "d9e546368029e57f6ad1f522485151d12198d3c5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
