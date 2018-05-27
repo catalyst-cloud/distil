@@ -22,6 +22,29 @@
       "revId": "543eedd8b13be9d5358d8e4d6eb4ad5d49a7f634",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f7c97a3_62de36db",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-05-27T23:38:28Z",
+      "side": 1,
+      "message": "except",
+      "range": {
+        "startLine": 159,
+        "startChar": 54,
+        "endLine": 159,
+        "endChar": 60
+      },
+      "revId": "543eedd8b13be9d5358d8e4d6eb4ad5d49a7f634",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
