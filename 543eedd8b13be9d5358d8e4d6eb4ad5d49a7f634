@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f7c97a3_a253ee6a",
+        "filename": "distil/erp/drivers/odoo.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2018-05-27T23:19:38Z",
+      "side": 1,
+      "message": "this looks wrong. should be \"list_price\" no?",
+      "range": {
+        "startLine": 118,
+        "startChar": 60,
+        "endLine": 118,
+        "endChar": 69
+      },
+      "revId": "543eedd8b13be9d5358d8e4d6eb4ad5d49a7f634",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
