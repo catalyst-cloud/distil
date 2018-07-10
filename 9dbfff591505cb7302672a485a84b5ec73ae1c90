@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f7c97a3_2b7689d6",
+        "filename": "distil/service/api/v2/health.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2018-07-10T00:20:35Z",
+      "side": 1,
+      "message": "can we maybe include a \u0027failed_projects\u0027 key in this dict, and put the project names and ids into that list?\n\nE.g:\n\n        result[\u0027usage_collection\u0027] \u003d {\n            \u0027status\u0027: Status.FAIL.name,\n            \u0027msg\u0027: \u0027Failed to collect usage for %s projects: %s.\u0027 %\n                   (failed_count, project_names),\n            \u0027failed_projects\u0027: [\n                {\u0027name\u0027: p.name, \u0027id\u0027: p.id} for p in failed_projects\n            ],\n        }",
+      "range": {
+        "startLine": 68,
+        "startChar": 8,
+        "endLine": 72,
+        "endChar": 9
+      },
+      "revId": "9dbfff591505cb7302672a485a84b5ec73ae1c90",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
