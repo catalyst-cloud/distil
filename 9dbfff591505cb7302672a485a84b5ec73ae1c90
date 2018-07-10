@@ -22,6 +22,30 @@
       "revId": "9dbfff591505cb7302672a485a84b5ec73ae1c90",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f7c97a3_da16c04a",
+        "filename": "distil/service/api/v2/health.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6732
+      },
+      "writtenOn": "2018-07-10T01:52:55Z",
+      "side": 1,
+      "message": "That makes sense. I prefer we still only show the failed project number in the error message, but add the `failed_projects` key in the dict. Thoughts?",
+      "parentUuid": "5f7c97a3_2b7689d6",
+      "range": {
+        "startLine": 68,
+        "startChar": 8,
+        "endLine": 72,
+        "endChar": 9
+      },
+      "revId": "9dbfff591505cb7302672a485a84b5ec73ae1c90",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
