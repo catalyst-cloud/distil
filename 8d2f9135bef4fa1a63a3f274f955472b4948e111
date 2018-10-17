@@ -16,6 +16,24 @@
       "revId": "8d2f9135bef4fa1a63a3f274f955472b4948e111",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f79a3b5_3b7f89bd",
+        "filename": "distil/tests/unit/transformer/test_conversion.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2018-10-17T22:45:50Z",
+      "side": 1,
+      "message": "oops, copy-paste issue, will fix it in next ps.",
+      "parentUuid": "3f79a3b5_7be8a17a",
+      "revId": "8d2f9135bef4fa1a63a3f274f955472b4948e111",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
