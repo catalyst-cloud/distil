@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5fc1f717_973e7527",
+        "filename": "distil/erp/drivers/jsonfile.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2019-03-07T21:29:08Z",
+      "side": 1,
+      "message": "I don\u0027t see this actually being used anywhere?",
+      "range": {
+        "startLine": 50,
+        "startChar": 13,
+        "endLine": 50,
+        "endChar": 29
+      },
+      "revId": "b6a59525a6616e1e8f7720d38cc42c10a1e9adaa",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fc1f717_f274a79b",
+        "filename": "distil/erp/drivers/jsonfile.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2019-03-07T21:29:08Z",
+      "side": 1,
+      "message": "do we need this?",
+      "range": {
+        "startLine": 224,
+        "startChar": 8,
+        "endLine": 238,
+        "endChar": 57
+      },
+      "revId": "b6a59525a6616e1e8f7720d38cc42c10a1e9adaa",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fc1f717_57fd6d38",
+        "filename": "etc/products.json",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2019-03-07T21:29:08Z",
+      "side": 1,
+      "message": "while it isn\u0027t exactly sensitive, let\u0027s not commit our own products. An example products file would be better.",
+      "range": {
+        "startLine": 2,
+        "startChar": 4,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "b6a59525a6616e1e8f7720d38cc42c10a1e9adaa",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
