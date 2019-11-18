@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_663bb59b",
+        "filename": "etc/meter_mappings.yml.sample",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2019-11-18T22:34:44Z",
+      "side": 1,
+      "message": "Have confirmed the new product name? If so, it would be nice if we can add the mapping here.",
+      "revId": "226ceacf90b43be04ce7db04fa2c9331b95cd118",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
