@@ -16,6 +16,24 @@
       "revId": "226ceacf90b43be04ce7db04fa2c9331b95cd118",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_33088b7e",
+        "filename": "etc/meter_mappings.yml.sample",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2019-11-19T22:14:53Z",
+      "side": 1,
+      "message": "The product name will come from the policy itself, so this is mostly a backup if the policy is present. Really this name should never be used anymore.",
+      "parentUuid": "3fa7e38b_663bb59b",
+      "revId": "226ceacf90b43be04ce7db04fa2c9331b95cd118",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
