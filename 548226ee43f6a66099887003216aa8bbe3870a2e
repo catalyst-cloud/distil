@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_11e2c702",
+        "filename": "distil/common/openstack.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 6484
+      },
+      "writtenOn": "2020-03-11T18:52:03Z",
+      "side": 1,
+      "message": "I\u0027d like to see test cases for there new functions. Thanks.",
+      "revId": "548226ee43f6a66099887003216aa8bbe3870a2e",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
+    }
+  ]
+}
