@@ -23,3 +23,9 @@ from_image:
   # where to get volume size from
   size_keys:
     - root_gb
+databaseuptime:
+  tracked_states:
+    ERROR
+databasemanagementuptime:
+  tracked_states:
+    ERROR
