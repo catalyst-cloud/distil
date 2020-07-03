@@ -16,6 +16,24 @@
       "revId": "73e115bdf622649a2a9f7aeeaf151c7729e1c1c5",
       "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf51134e_fbc155e6",
+        "filename": "etc/transformer.yaml.sample",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 10420
+      },
+      "writtenOn": "2020-07-03T00:11:38Z",
+      "side": 1,
+      "message": "both work off tracked states, but the management transformer doesn\u0027t care about flavor, it just uses: \"d1.management\" as the service/product name.",
+      "parentUuid": "bf51134e_4e90934f",
+      "revId": "73e115bdf622649a2a9f7aeeaf151c7729e1c1c5",
+      "serverId": "4a232e18-c5a9-48ee-94c0-e04e7cca6543",
+      "unresolved": false
     }
   ]
 }
