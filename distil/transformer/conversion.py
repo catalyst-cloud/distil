@@ -217,8 +217,8 @@ class DatabaseManagementUpTimeTransformer(UpTimeTransformer):
     """
 
     def _clean_entry(self, entry):
-        management_service_name = self.config.get(
-            'service_name', 'd1.management')
+        management_prefix = self.config.get(
+            'prefix', 'db.')
 
         try:
             timestamp = datetime.strptime(
@@ -226,6 +226,11 @@ class DatabaseManagementUpTimeTransformer(UpTimeTransformer):
         except ValueError:
             timestamp = datetime.strptime(
                 entry['timestamp'], constants.date_format_f)
+
+        flavor = openstack.get_flavor_name(
+            entry['metadata'].get('flavor.id'))
+
+        management_service_name = management_prefix + flavor
 
         result = {
             'status': entry['metadata'].get('status'),
